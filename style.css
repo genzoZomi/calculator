@@ -7,10 +7,12 @@ body {
 .container {
     border: 1px solid rgb(27, 197, 27);
     border-radius: 5px;
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 50%;
+    width:30% ;
 }
 
 .ctn-head {
@@ -23,18 +25,21 @@ body {
 
 button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 40px;
-    height: 30px;
+    width: 95px;
+    height: 75px;
     display:flex;
     justify-content: center;
     border:solid;
     border-radius:3px;
     background-color:black;
     color:white;
-    font-size: inherit;
+    font-size:default;
     letter-spacing: 1px;
     float: left;
     cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
 }
 
 button.hover {
@@ -46,7 +51,7 @@ button.hover {
 
 /* .ctn-head { 
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     right: 0;
     margin: auto;
